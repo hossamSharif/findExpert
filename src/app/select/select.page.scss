@@ -1,0 +1,64 @@
+ion-chip{
+    --ion-background-color:var(--ion-color-primary-contrast);
+}
+.select{
+    border-style: solid;
+    border-width: .5px;
+    border-color: var(--ion-color-primary);
+    width: 100%;
+    height: 70px;
+    padding: 16px;
+    border-radius: 31px;
+    background-color:var(--ion-color-primary-contrast);
+}
+.header-md::after {
+    background-image:none;
+}
+.bordernon{
+    border: none;
+}
+.top45{
+    top: 45%;
+}
+.h200{
+    height: 202px;
+}
+.m0{
+    margin-top: 0px;
+}
+.chip{
+    width: 100%;
+    height: 70px;
+    padding: 16px;
+    border-radius: 31px;
+    background-color:var(--ion-color-primary-contrast);
+}
+.custH{
+    border-bottom-style: solid;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+.custGrid{
+    position: relative;
+    top: -130px;
+}
+.footer-md::before{
+    background-image:  none;
+}
+.borderNone{
+    border-radius: 0px;
+}
+.padd13{
+    padding-top:13%
+}
+.padd1{
+    padding: 1%;
+}
+.logoSvg{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}

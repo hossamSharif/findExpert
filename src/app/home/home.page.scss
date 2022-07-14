@@ -1,0 +1,31 @@
+.bgtool{
+    background-image: url('../../assets/imgs/bgtoolbar2.png'); 
+    background-blend-mode: soft-light;
+    background-color: var(--ion-color-primary-tint);
+}
+
+ion-toolbar{
+    --opacity	:0
+}
+
+.hedCol{
+    position: absolute;
+    bottom: -30px;
+}
+
+.header-md::after{
+    background-image: none;
+}
+
+ion-searchbar{
+    --background :none;
+    --box-shadow:none; 
+}
+ion-item{
+     --ion-background-color:var(--ion-color-primary-contrast);
+}
+
+.bgL{
+    --ion-background-color:var(--ion-color-primary-contrast);
+
+}

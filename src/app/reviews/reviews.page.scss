@@ -1,0 +1,135 @@
+.bgL{
+    background-color:var(--ion-color-primary-contrast);
+
+}
+
+.hedCol{
+    
+    bottom: -20px;
+}
+
+.header-md::after{
+    background-image: none;
+}
+
+
+
+.custChip{
+    background-color: #90ee907d;;
+   
+}
+.custChipdanger{
+  background-color: #fd000067;;
+ 
+}
+
+.custChiplight{
+  background-color:var(--ion-color-primary-contrast);
+ 
+}
+.borderP{
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--ion-color-primary);
+
+}
+.custRow{
+  background-color:var(--ion-color-primary-contrast);
+  margin: 5px;
+}
+
+.borderB{
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  border-color: var(--ion-color-medium);
+}
+
+
+ion-item{
+  --inner-padding-end:0px;
+ 
+}
+
+.custAvatar{
+  width: 60px;
+  height: 60px;
+}
+
+.custAvatarHed{
+    width: 95px;
+    height: 95px;
+    border-style: solid;
+    border-width: 4.5px;
+    border-color: var(--ion-color-medium);
+  }
+
+
+ 
+  .p5{
+    padding-top: 5px;
+  }
+  .bl5{
+    padding-left: 10px;
+  }
+
+ .custcol {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    
+ }
+ .brD{
+    border-color: var(--ion-color-danger);
+ }
+ .brs{
+   background-color: var(--ion-color-success);
+   border-width: 0px;
+ }
+ .brP{
+  background-color: var(--ion-color-primary);
+  border-width: 0px;
+  color:var(--ion-color-light);
+}
+
+.imgCol{
+  background-color: var(--ion-color-light-tint);
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.fi{
+  font-size: 24px;
+}
+.un{
+  text-decoration: underline;
+}
+.pro{
+  height: 7px;
+  border-radius: 5px;
+}
+.proGood{
+  --progress-background :rgba(67, 230, 67, 0.612); 
+}
+.proDownAvrg{
+  --progress-background :rgb(235, 239, 116); 
+}
+
+
+.sm{
+  width: 50px;
+  height: 50px;
+}
+
+.bgPshadeP{
+   background-color: #d0f0ffd4;
+}
+.cusItem{
+  
+    --ion-background-color:none;
+ 
+}
+
+.cusItemPrimary{
+  --ion-background-color:var(--ion-color-primary);
+
+}
