@@ -1,0 +1,152 @@
+.bgL{
+    background-color:var(--ion-color-primary-contrast);
+
+}
+
+ion-range::part(pin) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+    color: rgb(10, 1, 1);
+  
+    border-radius: 50%;
+    transform: scale(1.01);
+    background: rgb(120, 93, 93);
+    top: -24px;
+  
+    min-width: 28px;
+    height: 28px;
+    transition: transform 120ms ease, background 120ms ease;
+  }
+
+.hedCol{
+    
+    bottom: -20px;
+}
+
+.header-md::after{
+    background-image: none;
+}
+
+
+
+.custChip{
+    background-color: #90ee907d;;
+   
+}
+.custChipdanger{
+  background-color: #fd000067;;
+ 
+}
+
+.custChiplight{
+  background-color:var(--ion-color-primary-contrast);
+ 
+}
+.borderP{
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--ion-color-primary);
+
+}
+
+.custRow{
+  background-color:var(--ion-color-primary-contrast);
+  margin: 10px;
+
+}
+
+.borderB{
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  border-color: var(--ion-color-medium);
+}
+
+
+ion-item{
+  --inner-padding-end:4px;
+ 
+}
+
+.custAvatar{
+  width: 50px;
+  height: 50px
+}
+
+.timDiv{
+ border-radius: 50px; 
+ padding: 8px;
+ margin: 3px;
+ width: 90%;
+  max-width: 100px;
+}
+.avail{
+    background-color:var(--ion-color-primary-contrast);
+    border-style: solid;
+    border-width: .5px;
+    border-color:   var(--ion-color-success);
+    color: var(--ion-color-success);
+}
+.dis{
+    background-color:var(--ion-color-medium); 
+}
+.selected{
+  background-color:var(--ion-color-primary); 
+  color: var(--ion-color-light);
+  
+}
+.inerrP15{
+    --inner-padding-end: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.custAvatarHed{
+    width: 95px;
+    height: 95px;
+    border-style: solid;
+    border-width: 4.5px;
+    border-color: var(--ion-color-medium);
+  }
+
+  
+  .ion-margin-top {
+    --margin-top: var(--ion-margin, 10px);
+    margin-top: var(--ion-margin, 10px);
+}
+ 
+ 
+  .p5{
+    padding-top: 10px;
+  }
+  .bl5{
+    padding-left: 10px;
+  }
+
+ .custcol {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    
+ }
+ .brD{
+    border-color: var(--ion-color-danger);
+ }
+ .brs{
+   background-color: var(--ion-color-success);
+   border-width: 0px;
+ }
+
+
+ .selectedItem{
+  --ion-background-color:var(--ion-color-primary);
+  --ion-color:var(--ion-color-primary-contrast);
+}
+.selectedGrid{
+  background-color:var(--ion-color-primary);
+}
+
+.p5{
+    padding: 5px;
+}

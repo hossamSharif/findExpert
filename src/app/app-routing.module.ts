@@ -90,6 +90,46 @@ const routes: Routes = [
   {
     path: 'review-modal',
     loadChildren: () => import('./review-modal/review-modal.module').then( m => m.ReviewModalPageModule)
+  },
+  {
+    path: 'experts',
+    loadChildren: () => import('./experts/experts.module').then( m => m.ExpertsPageModule)
+  },
+  {
+    path: 'form1',
+    loadChildren: () => import('./form1/form1.module').then( m => m.Form1PageModule)
+  },
+  {
+    path: 'form2',
+    loadChildren: () => import('./form2/form2.module').then( m => m.Form2PageModule)
+  },
+  {
+    path: 'form3',
+    loadChildren: () => import('./form3/form3.module').then( m => m.Form3PageModule)
+  },
+  {
+    path: 'form4',
+    loadChildren: () => import('./form4/form4.module').then( m => m.Form4PageModule)
+  },
+  {
+    path: 'form5',
+    loadChildren: () => import('./form5/form5.module').then( m => m.Form5PageModule)
+  },
+  {
+    path: 'new-projct-form1',
+    loadChildren: () => import('./new-projct-form1/new-projct-form1.module').then( m => m.NewProjctForm1PageModule)
+  },
+  {
+    path: 'new-projct-form2',
+    loadChildren: () => import('./new-projct-form2/new-projct-form2.module').then( m => m.NewProjctForm2PageModule)
+  },
+  {
+    path: 'new-projct-form3',
+    loadChildren: () => import('./new-projct-form3/new-projct-form3.module').then( m => m.NewProjctForm3PageModule)
+  },
+  {
+    path: 'notificatios',
+    loadChildren: () => import('./notificatios/notificatios.module').then( m => m.NotificatiosPageModule)
   }
 ];
 

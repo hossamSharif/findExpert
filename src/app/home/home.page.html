@@ -28,7 +28,7 @@
 <ion-content>
   <ion-grid class="ion-margin-top">
     <ion-row >
-      <ion-col size="11">
+      <ion-col size="11" class="ion-padding-start">
         <h4 ><ion-text color="primary"><b>service </b></ion-text><br>
           <ion-text color="dark"><b>categories </b></ion-text> 
         </h4>
@@ -36,13 +36,13 @@
     </ion-row>
   </ion-grid>
   
-  <ion-grid class="ion-margin-top">
+  <ion-grid >
     <ion-row >
       <ion-col size="12">
         <ion-card>
           <ion-accordion-group>
             <ion-accordion value="first" class="bgL">
-              <ion-item slot="header" >
+              <ion-item slot="header">
                 <ion-avatar slot="start">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -58,19 +58,19 @@
              
               <div class="ion-padding " slot="content">
                 <ion-list >
-                <ion-item> 
+                <ion-item  button (click)="experts()"> 
                   <ion-text color="primary">Family Physicians</ion-text>
                   <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                 </ion-item>
-                <ion-item> 
+                <ion-item  button (click)="experts()"> 
                   <ion-text color="primary">Cardiologists</ion-text>
                   <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                 </ion-item>
-                <ion-item> 
+                <ion-item  button (click)="experts()">  
                   <ion-text color="primary">Dermatologists</ion-text>
                   <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                 </ion-item>
-                <ion-item> 
+                <ion-item  button (click)="experts()"> 
                   <ion-text color="primary">Gastroenterologists</ion-text>
                   <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                 </ion-item>
@@ -78,7 +78,7 @@
               </div>
             </ion-accordion>
             <ion-accordion value="second" class="bgL">
-              <ion-item slot="header" >
+              <ion-item slot="header"  button (click)="experts()">
                 <ion-avatar slot="start">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -89,15 +89,15 @@
               </ion-item>
               <div class="ion-padding" slot="content">
                 <ion-list >
-                  <ion-item> 
+                  <ion-item  button (click)="experts()"> 
                     <ion-text color="primary">Family Physicians</ion-text>
                     <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                   </ion-item>
-                  <ion-item> 
+                  <ion-item  button (click)="experts()"> 
                     <ion-text color="primary">Cardiologists</ion-text>
                     <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                   </ion-item>
-                  <ion-item> 
+                  <ion-item  button (click)="experts()"> 
                     <ion-text color="primary">Dermatologists</ion-text>
                     <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                   </ion-item>
@@ -109,7 +109,7 @@
               </div>
             </ion-accordion>
             <ion-accordion value="third" class="bgL">
-              <ion-item slot="header">
+              <ion-item slot="header" >
                 <ion-avatar slot="start">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -122,11 +122,11 @@
               </ion-item>
               <div class="ion-padding" slot="content">
                 <ion-list >
-                  <ion-item> 
+                  <ion-item  button (click)="experts()"> 
                     <ion-text color="primary">Family Physicians</ion-text>
                     <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                   </ion-item>
-                  <ion-item> 
+                  <ion-item  button (click)="experts()"> 
                     <ion-text color="primary">Cardiologists</ion-text>
                     <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                   </ion-item>

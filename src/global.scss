@@ -56,6 +56,11 @@
     ion-item{
         --ion-background-color:var(--ion-color-primary-contrast);
     }
+
+    .ion-item2{
+        --ion-background-color:var(--ion-color-light);
+    }
+
     .f30{
         font-size: 30px;
     }
@@ -67,3 +72,23 @@
     .bg{
         background-color: var(--ion-color-primary);
     }
+
+    .cusItemPrimary{
+        --ion-background-color:var(--ion-color-primary);
+      
+      }
+      .cusItemPrimary{
+        --ion-background-color:var(--ion-color-primary);
+      
+      }
+
+      .pt7{
+        padding-top: 6px;
+      }
+      .pt5{
+      padding-top: 5px;
+      }
+      .mgSE8{
+        margin-left: 8px;
+        margin-right: 8px;
+      }

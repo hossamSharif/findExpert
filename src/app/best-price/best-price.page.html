@@ -27,7 +27,7 @@
 
 
   <ion-list>
-    <ion-item class="ion-padding-top ion-padding-bottom" lines="none" (click)="proposal()" button>
+    <ion-item class="ion-padding-top ion-padding-bottom ion-margin-start ion-margin-end " lines="none" (click)="proposal()" button>
       <ion-avatar class="ion-margin-end">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -38,7 +38,7 @@
           <path d="M29.5125 17.3706H31.1436V19.0017C31.1436 19.302 31.387 19.5455 31.6873 19.5455H33.3184C33.6187 19.5455 33.8621 19.302 33.8621 19.0017V17.3706H35.4932C35.7935 17.3706 36.0369 17.1272 36.0369 16.8269V15.1958C36.0369 14.8955 35.7935 14.6521 35.4932 14.6521H33.8621V13.021C33.8621 12.7207 33.6187 12.4773 33.3184 12.4773H31.6873C31.387 12.4773 31.1436 12.7207 31.1436 13.021V14.6521H29.5125C29.2122 14.6521 28.9688 14.8955 28.9688 15.1958V16.8269C28.9688 17.1272 29.2122 17.3706 29.5125 17.3706Z" fill="#0083FD"/>
           </svg>
       </ion-avatar>
-      <ion-grid>
+      <ion-grid class="ion-padding-top ion-padding-bottom">
         <ion-row>
           <ion-col size="12"> 
             <ion-label><b>Family Physicians Appointment...</b></ion-label> 
@@ -52,7 +52,7 @@
       <ion-note slot="end">27 may</ion-note>
     </ion-item>
 
-    <ion-item class="ion-padding-top ion-padding-bottom" lines="none" (click)="proposal()" button>
+    <ion-item class="ion-padding-top ion-padding-bottom ion-margin-start ion-margin-end" lines="none" (click)="proposal()" button>
       <ion-avatar class="ion-margin-end">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -82,7 +82,7 @@
     </ion-item>
 
 
-    <ion-item class="ion-padding-top ion-padding-bottom" lines="none" (click)="proposal()" button>
+    <ion-item class="ion-padding-top ion-padding-bottom ion-margin-start ion-margin-end" lines="none" (click)="proposal()" button>
       <ion-avatar class="ion-margin-end">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -114,7 +114,7 @@
       <ion-note slot="end">27 may</ion-note>
     </ion-item>
 
-    <ion-item class="ion-padding-top ion-padding-bottom" lines="none" (click)="proposal()" button>
+    <ion-item class="ion-padding-top ion-padding-bottom ion-margin-start ion-margin-end" lines="none" (click)="proposal()" button>
       <ion-avatar class="ion-margin-end">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -126,14 +126,22 @@
       <ion-grid>
         <ion-row>
           <ion-col size="12"> 
-            <ion-label class="p8"><b>Salon Appointment...</b></ion-label>  
-          <ion-note>
-            <ion-text color="danger">
-              <ion-icon name="close-outline" color="danger"></ion-icon>
-              Cancled
-            </ion-text>
-                
+            <ion-label class="p8"><b>Salon Appointment...</b></ion-label> 
+            <ion-label class="posAb">
+              <ion-note>
+                <ion-text color="danger" class="f19">
+                  <ion-icon name="close-outline" color="danger"></ion-icon>
+                </ion-text>
               </ion-note>
+            </ion-label>
+            <ion-label>
+              <ion-note>
+                <ion-text color="danger" class="posAb fl19">
+                  Cancled
+                </ion-text>
+              </ion-note>
+            </ion-label>
+           
           </ion-col>
         </ion-row>
       </ion-grid> 
@@ -141,7 +149,7 @@
     </ion-item>
 
     
-    <ion-item class="ion-padding-top ion-padding-bottom" lines="none" (click)="proposal()" button>
+    <ion-item class="ion-padding-top ion-padding-bottom ion-margin-start ion-margin-end" lines="none" (click)="proposal()" button>
       <ion-avatar class="ion-margin-end">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -153,14 +161,21 @@
       <ion-grid>
         <ion-row>
           <ion-col size="12"> 
-            <ion-label class="p8"><b>Cardiologists Appointment...</b></ion-label>  
-          <ion-note>
-            <ion-text color="warning">
-              <ion-icon name="checkmark-outline" color="warning"></ion-icon>
-              compoleted
-            </ion-text>
-                
+            <ion-label class="p8"><b>Cardiologists Appointment...</b></ion-label> 
+            <ion-label class="posAb">
+              <ion-note>
+                <ion-text color="warning" class="f19">
+                  <ion-icon name="checkmark-outline" color="warning"></ion-icon>
+                </ion-text>
               </ion-note>
+            </ion-label>
+            <ion-label>
+              <ion-note>
+                <ion-text color="warning" class="posAb fl19">
+                  compoleted
+                </ion-text>
+              </ion-note>
+            </ion-label>
           </ion-col>
         </ion-row>
       </ion-grid> 
