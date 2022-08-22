@@ -50,6 +50,10 @@
   
 </ion-header>
 <ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding">
+
   <ion-grid class="ion-margin-top">
     <ion-row >
       <ion-col size="12">
@@ -61,7 +65,7 @@
     </ion-row>
     <ion-row >
       <ion-col size="11">
-        <h4 ><ion-text color="primary"><b>CHOOSE </b></ion-text><br>
+        <h4  class="p5"><ion-text color="primary"><b>CHOOSE </b></ion-text><br>
           <ion-text color="dark"><b>categories </b></ion-text> 
         </h4>
       </ion-col>
@@ -69,13 +73,13 @@
   </ion-grid>
 
 
-  <ion-grid class="ion-margin-top">
+  <ion-grid >
     <ion-row >
       <ion-col size="12">
         <ion-card>
           <ion-accordion-group>
-            <ion-accordion value="first" class="bgL">
-              <ion-item slot="header" >
+            <ion-accordion value="first" class="bgL bdl">
+              <ion-item  slot="header"  lines="none" class="padd" >
                 <ion-avatar slot="start">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -91,7 +95,7 @@
              
               <div class="ion-padding " slot="content">
                 <ion-list >
-                <ion-item button class="selectedItem"> 
+                <ion-item button class="selectedItem "> 
                   <ion-text color="light">Family Physicians</ion-text>
                   <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
                 </ion-item>
@@ -111,8 +115,8 @@
               </div>
             </ion-accordion>
 
-            <ion-accordion value="second" class="bgL">
-              <ion-item slot="header" >
+            <ion-accordion value="second" class="bgL bdl">
+              <ion-item slot="header"  lines="none"  class="padd">
                 <ion-avatar slot="start">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -142,8 +146,8 @@
                   </ion-list>
               </div>
             </ion-accordion>
-            <ion-accordion value="third" class="bgL">
-              <ion-item slot="header">
+            <ion-accordion value="third" class="bgL bdl">
+              <ion-item slot="header"  lines="none" class="padd">
                 <ion-avatar slot="start">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="24" fill="#E9F4FE"/>
@@ -182,9 +186,19 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-content>
 <ion-footer> 
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding">
   <ion-item  button  class="cusItemPrimary" (click)="next()">
     <ion-label class="ion-text-center"><ion-text color="light">  Next</ion-text> </ion-label> 
   </ion-item >
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-footer>

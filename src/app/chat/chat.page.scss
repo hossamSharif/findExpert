@@ -1,0 +1,164 @@
+// .status{
+//     color: gray;
+//     font-weight: 400;
+//     font-size: 15px;
+//   }
+//   ion-header ion-avatar{
+//     padding: 3px;
+//   }
+  
+//   ion-icon{
+//     padding: 6px;
+//     font-size: 20px;
+//     color: #007AFF;
+//   }
+  
+//   ion-content{
+//     position: relative;
+//   }
+
+//   .bg{
+//     width: 100%;
+//     height: 100%;
+//     position: fixed;
+//     background: rgb(228, 218, 218);
+//   }
+  
+  ion-toolbar{ 
+    ion-input{
+      background: white !important;
+      height: 31px;
+      width: 97%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      border-radius: 20px;
+      border: 1px #dfdfdf solid;
+      --padding-start:8px;
+    }
+  }
+  .btns{
+    padding-top: 0px;  
+    --padding-end: 0px;  
+     --padding-bottom: 0px; 
+    --padding-start: 0px;  
+    --border-radius: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+     width: 35px;  
+     height: 48px
+  }
+.f12{
+    font-size: 12px;
+}
+
+  ion-item{
+    --background: transparent;
+  
+  }
+  
+  ion-badge{
+    padding: 6px 6px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: 1px 1px 3px#00000029;
+  }
+  
+//   ion-item ion-note{
+//     font-size: 10px;
+//     margin-left: 8px;
+//   }
+  
+  
+//   ion-item ion-note ion-icon {
+//     font-size: 18px;
+//     margin-bottom: -10px;
+//     margin-left: -1px;
+//   }
+.tim2{
+  position: absolute;
+  left: 0px;
+}
+
+.pgChr{
+  background-image: url('../../assets/imgs/chatr.png');
+    /* background-position-x: center; */
+    background-size: cover;
+    background-repeat: round;
+}
+
+.flL{
+  float: left;
+}
+
+.pgChrWl{
+  background-image: url('../../assets/imgs/chatlWh.png');
+    /* background-position-x: center; */
+    background-size: cover;
+    background-repeat: round;
+}
+
+.colt{
+     background-color:var(--ion-color-primary-contrast);
+     border-radius: 5px;
+}
+
+.colimg{
+     border-radius: 5px;
+     display: inline-flex;
+  }
+.tim{
+    position: absolute;
+    bottom: 3px;
+    font-size: 12px;
+    
+}
+
+.r16{
+  right: 16px;
+}
+
+.r10{
+  right: 10px;
+}
+.r5{
+  right: 5px;
+}
+.r0{
+  right: 0px;
+  bottom: 0px;
+}
+.bgPN{
+  background-color: #BFD7FF;
+}
+.bgPN2{
+    background-color:var(--ion-color-primary-contrast);
+  }
+.f11{
+  font-size: 11px;
+}
+.msgLbl{
+    padding-left:20px ;
+    padding-top:12px ;
+    padding-bottom:12px ;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  .msgPic{
+                              
+    max-width: 80%;
+  }
+  .msgVoice{
+    padding-left:0px ;
+    padding-top:0px ;
+    padding-bottom:0px ;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  .custAv{
+    width: 40px;
+    height:40px;
+    margin-right: 5px;
+  }

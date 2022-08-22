@@ -5,9 +5,12 @@
      </ion-buttons>
     <ion-title>experts</ion-title>
   </ion-toolbar>
-  <ion-toolbar> 
-    <ion-list class="ion-padding">
-      <ion-item lines="none"   class="ion-margin-top ion-item2">
+  <ion-toolbar>
+    <ion-grid class="ion-no-padding">
+      <ion-row class="ion-justify-content-center"> 
+        <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding"> 
+    <ion-list class="ion-padding-start ion-padding-end">
+      <ion-item lines="none"   class=" ion-item2">
         <ion-icon name="location-outline" color="primary"></ion-icon>
         <ion-input value="204, AJ Street, A1 Mall"></ion-input>
         <ion-buttons slot="end">
@@ -20,8 +23,8 @@
         </ion-buttons>
       </ion-item>
       <ion-item lines="none" class="ion-margin-top ion-item2">
-        <ion-icon color="primary" name="checkmark-circle"></ion-icon>
-        <ion-input  placeholder="choose anywhere In country " value=""></ion-input>
+        <ion-label>choose anywhere In country </ion-label>
+        <ion-checkbox class="ion-no-margin ion-margin-end"  slot="start"></ion-checkbox>
       </ion-item>
         <ion-grid>
           <ion-row>
@@ -43,11 +46,19 @@
         </ion-grid>
      
     </ion-list>
+  </ion-col>
+</ion-row>
+</ion-grid>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-grid>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding">
+
+
+  <ion-grid class="ion-padding-start">
     <ion-row >
       <ion-col size="11">
         <h4 ><ion-note >38 experts found </ion-note><br><br>
@@ -57,12 +68,11 @@
     </ion-row>
   </ion-grid>
 
-  <ion-grid class="custRow"> 
+  <ion-grid class="ion-padding"> 
     <ion-row >
       <ion-col size="12" class="ion-no-padding">
         <ion-grid class="ion-no-padding">  
-            <ion-row >
-              
+            <ion-row class="p10 custRow"> 
               <ion-item button (click)=" next()"  lines="none" class="w100 ion-no-padding">
                 <ion-avatar class="custAvatar">
                   <img src="../../assets/imgs/max.png">
@@ -114,4 +124,9 @@
        <ion-icon name="options-outline" color="light"></ion-icon> 
    </ion-chip>
  </ion-fab>
+
+
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-content>

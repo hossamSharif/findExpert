@@ -3,6 +3,8 @@
 
 }
 
+
+
 .hedCol{
     
     bottom: -20px;
@@ -46,7 +48,7 @@
 
 
 ion-item{
-  --inner-padding-end:0px;
+  --inner-padding-end:10px;
  
 }
 
@@ -109,12 +111,28 @@ ion-item{
 }
 .proGood{
   --progress-background :rgba(67, 230, 67, 0.612); 
+  --background :   var(--ion-color-light);
+  
 }
 .proDownAvrg{
   --progress-background :rgb(235, 239, 116); 
+  --background :   var(--ion-color-light);
 }
 
+.proWarn{
+  --progress-background : var(--ion-color-warning);
+  --background :   var(--ion-color-light);
+}
+.proDang{
+  --progress-background : var(--ion-color-danger);
+  --background :   var(--ion-color-light);
+}
 
+.proSucc{
+  --progress-background : var(--ion-color-success);
+  --background :   var(--ion-color-light);
+}
+ 
 .sm{
   width: 50px;
   height: 50px;
@@ -123,12 +141,11 @@ ion-item{
 .bgPshadeP{
    background-color: #d0f0ffd4;
 }
-.cusItem{
-  
-    --ion-background-color:none;
- 
+.cusItem{ 
+    --ion-background-color:none; 
 }
 
+ 
 .cusItemPrimary{
   --ion-background-color:var(--ion-color-primary);
 

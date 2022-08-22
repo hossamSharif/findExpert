@@ -16,4 +16,7 @@ export class BestPricePage implements OnInit {
   proposal(){
     this.rout.navigate(['proposal']);  
   }
+  newp(){
+    this.rout.navigate(['new-projct-form1']);  
+  }
 }

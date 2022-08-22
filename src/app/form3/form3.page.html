@@ -3,7 +3,9 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
      </ion-buttons>
-      
+     <ion-grid class="ion-no-padding">
+      <ion-row class="ion-justify-content-center"> 
+        <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding">
       <ion-grid>
         <ion-row class="ion-justfy-content-center">
           <ion-col size="12" class="ion-text-center">
@@ -27,11 +29,17 @@
           </ion-col>
         </ion-row>
        </ion-grid>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
   </ion-toolbar>
 
 </ion-header>
 
 <ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding">
   <ion-grid class="ion-no-padding ion-margin-top">
     <ion-row>
       <ion-col size="12" class="ion-no-padding">
@@ -40,7 +48,7 @@
             <ion-item  lines="none" class="w100 ion-no-padding  "> 
               <ion-grid class="ion-no-padding">
                 <ion-row>
-                  <ion-col size="6" class="p5">
+                  <ion-col size="5" class="p5">
                     <ion-grid>
                       <ion-row>
                         <ion-col size="12" class="p5">
@@ -51,12 +59,12 @@
                         <ion-col size="12" class="p5">
                           <ion-label>
                             <ion-note> 
-                              <ion-icon name="clock" color="primary"></ion-icon>
+                              <ion-icon name="time-outline" class="f12" color="primary"></ion-icon>
                               <ion-text  color="primary">2 hours</ion-text>
                             </ion-note>
                           </ion-label>  
                         </ion-col>
-                        <ion-col size="12" class="p5">
+                        <ion-col size="12" class="p5 ion-padding-start">
                           <ion-label>
                             <ion-note>
                               Lorem Ipsum is simply dummy text
@@ -67,13 +75,13 @@
                     </ion-grid> 
                   </ion-col>
   
-                  <ion-col size="6" class="ion-text-center ion-padding-top">
+                  <ion-col size="7" class="ion-text-center ion-padding-top">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7.16131 0C4.56271 0 2.36445 1.7296 1.6304 4.09222H0.681986C0.305661 4.09222 0 4.39766 0 4.77421C0 5.15101 0.305673 5.45619 0.681986 5.45619H1.38541C1.37851 5.57085 1.36424 5.68099 1.36424 5.79731C1.36424 6.02639 1.38065 6.25714 1.40682 6.4793H0.682263C0.305938 6.4793 0.000276906 6.78474 0.000276906 7.16129C0.000276906 7.53809 0.30595 7.84327 0.682263 7.84327H1.74796C2.57866 10.0334 4.68673 11.5947 7.16159 11.5947C9.01797 11.5947 10.3018 10.7678 11.3818 9.68711L11.3813 9.68735C11.5107 9.56033 11.5842 9.38667 11.5857 9.20541C11.5869 9.0239 11.516 8.8493 11.3885 8.72038C11.261 8.59145 11.0873 8.51865 10.9061 8.51818C10.7248 8.5177 10.5507 8.58931 10.4222 8.71752C9.4576 9.68286 8.64694 10.2309 7.16087 10.2309C5.4415 10.2309 3.96664 9.26559 3.2285 7.84383H7.4913C7.86762 7.84383 8.17328 7.53839 8.17328 7.16184C8.17328 6.78529 7.86761 6.47986 7.4913 6.47986H2.78079C2.74653 6.25768 2.7275 6.03003 2.7275 5.79787C2.7275 5.68083 2.74011 5.57165 2.74867 5.45675H7.49103C7.86736 5.45675 8.17302 5.15131 8.17302 4.77476C8.17302 4.3982 7.86735 4.09278 7.49103 4.09278H3.06863C3.73612 2.48875 5.30873 1.36453 7.16085 1.36453C8.64662 1.36453 9.45734 1.9019 10.4219 2.86722L10.4222 2.86699C10.5504 2.9952 10.7245 3.0668 10.9058 3.06632C11.0871 3.06585 11.2607 2.99306 11.3882 2.86413C11.5157 2.7352 11.5868 2.56059 11.5854 2.3791C11.5842 2.19783 11.5107 2.02418 11.3813 1.89715C10.3014 0.816228 9.01753 0.000328942 7.16109 0.000328942L7.16131 0Z" fill="#246EE9"/>
                       </svg>
-                    125.00
+                     125.00
 
-                    <ion-chip  color="primary" class="ion-no-padding">
+                    <ion-chip  color="primary" class="ion-no-padding ion-margin-start">
                       <ion-button fill="clear" color="primary" slots="icon-only">
                         <ion-icon name="add"></ion-icon>
                       </ion-button>
@@ -83,6 +91,9 @@
                       </ion-button>
                     </ion-chip>
                   </ion-col>
+               
+                    
+                 
                  
                 </ion-row> 
               </ion-grid>
@@ -104,7 +115,7 @@
             <ion-item  lines="none" class="w100 ion-no-padding  "> 
               <ion-grid class="ion-no-padding">
                 <ion-row>
-                  <ion-col size="6" class="p5">
+                  <ion-col size="5" class="p5">
                     <ion-grid>
                       <ion-row>
                         <ion-col size="12" class="p5">
@@ -115,7 +126,7 @@
                         <ion-col size="12" class="p5">
                           <ion-label>
                             <ion-note> 
-                              <ion-icon name="clock" color="primary"></ion-icon>
+                              <ion-icon class="f12" name="time-outline" color="primary"></ion-icon>
                               <ion-text  color="primary">2 hours</ion-text>
                             </ion-note>
                           </ion-label>  
@@ -131,13 +142,13 @@
                     </ion-grid> 
                   </ion-col>
   
-                  <ion-col size="6" class="ion-text-center ion-padding-top">
+                  <ion-col size="7" class="ion-text-center ion-padding-top">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7.16131 0C4.56271 0 2.36445 1.7296 1.6304 4.09222H0.681986C0.305661 4.09222 0 4.39766 0 4.77421C0 5.15101 0.305673 5.45619 0.681986 5.45619H1.38541C1.37851 5.57085 1.36424 5.68099 1.36424 5.79731C1.36424 6.02639 1.38065 6.25714 1.40682 6.4793H0.682263C0.305938 6.4793 0.000276906 6.78474 0.000276906 7.16129C0.000276906 7.53809 0.30595 7.84327 0.682263 7.84327H1.74796C2.57866 10.0334 4.68673 11.5947 7.16159 11.5947C9.01797 11.5947 10.3018 10.7678 11.3818 9.68711L11.3813 9.68735C11.5107 9.56033 11.5842 9.38667 11.5857 9.20541C11.5869 9.0239 11.516 8.8493 11.3885 8.72038C11.261 8.59145 11.0873 8.51865 10.9061 8.51818C10.7248 8.5177 10.5507 8.58931 10.4222 8.71752C9.4576 9.68286 8.64694 10.2309 7.16087 10.2309C5.4415 10.2309 3.96664 9.26559 3.2285 7.84383H7.4913C7.86762 7.84383 8.17328 7.53839 8.17328 7.16184C8.17328 6.78529 7.86761 6.47986 7.4913 6.47986H2.78079C2.74653 6.25768 2.7275 6.03003 2.7275 5.79787C2.7275 5.68083 2.74011 5.57165 2.74867 5.45675H7.49103C7.86736 5.45675 8.17302 5.15131 8.17302 4.77476C8.17302 4.3982 7.86735 4.09278 7.49103 4.09278H3.06863C3.73612 2.48875 5.30873 1.36453 7.16085 1.36453C8.64662 1.36453 9.45734 1.9019 10.4219 2.86722L10.4222 2.86699C10.5504 2.9952 10.7245 3.0668 10.9058 3.06632C11.0871 3.06585 11.2607 2.99306 11.3882 2.86413C11.5157 2.7352 11.5868 2.56059 11.5854 2.3791C11.5842 2.19783 11.5107 2.02418 11.3813 1.89715C10.3014 0.816228 9.01753 0.000328942 7.16109 0.000328942L7.16131 0Z" fill="#246EE9"/>
                       </svg>
                     125.00
 
-                    <ion-chip  color="primary" class="ion-no-padding p10">
+                    <ion-chip  color="primary" class="ion-no-padding p10 ion-margin-start">
                       <ion-button fill="clear" color="primary" slots="icon-only">
                         <ion-icon name="add"></ion-icon>
                       </ion-button>
@@ -166,7 +177,7 @@
             <ion-item  lines="none" class="w100 ion-no-padding  "> 
               <ion-grid class="ion-no-padding">
                 <ion-row>
-                  <ion-col size="6" class="p5">
+                  <ion-col size="5" class="p5">
                     <ion-grid>
                       <ion-row>
                         <ion-col size="12" class="p5">
@@ -176,13 +187,13 @@
                         </ion-col>
                         <ion-col size="12" class="p5">
                           <ion-label>
+                            <ion-icon class="f12" name="time-outline" color="primary"></ion-icon>
                             <ion-note> 
-                              <ion-icon name="clock" color="primary"></ion-icon>
                               <ion-text  color="primary">2 hours</ion-text>
                             </ion-note>
                           </ion-label>  
                         </ion-col>
-                        <ion-col size="12" class="p5">
+                        <ion-col size="12" class="p5 ion-padding-start">
                           <ion-label>
                             <ion-note>
                               Lorem Ipsum is simply dummy text
@@ -193,13 +204,13 @@
                     </ion-grid> 
                   </ion-col>
   
-                  <ion-col size="6" class="ion-text-center ion-padding-top">
+                  <ion-col size="7" class="ion-text-center ion-padding-top">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7.16131 0C4.56271 0 2.36445 1.7296 1.6304 4.09222H0.681986C0.305661 4.09222 0 4.39766 0 4.77421C0 5.15101 0.305673 5.45619 0.681986 5.45619H1.38541C1.37851 5.57085 1.36424 5.68099 1.36424 5.79731C1.36424 6.02639 1.38065 6.25714 1.40682 6.4793H0.682263C0.305938 6.4793 0.000276906 6.78474 0.000276906 7.16129C0.000276906 7.53809 0.30595 7.84327 0.682263 7.84327H1.74796C2.57866 10.0334 4.68673 11.5947 7.16159 11.5947C9.01797 11.5947 10.3018 10.7678 11.3818 9.68711L11.3813 9.68735C11.5107 9.56033 11.5842 9.38667 11.5857 9.20541C11.5869 9.0239 11.516 8.8493 11.3885 8.72038C11.261 8.59145 11.0873 8.51865 10.9061 8.51818C10.7248 8.5177 10.5507 8.58931 10.4222 8.71752C9.4576 9.68286 8.64694 10.2309 7.16087 10.2309C5.4415 10.2309 3.96664 9.26559 3.2285 7.84383H7.4913C7.86762 7.84383 8.17328 7.53839 8.17328 7.16184C8.17328 6.78529 7.86761 6.47986 7.4913 6.47986H2.78079C2.74653 6.25768 2.7275 6.03003 2.7275 5.79787C2.7275 5.68083 2.74011 5.57165 2.74867 5.45675H7.49103C7.86736 5.45675 8.17302 5.15131 8.17302 4.77476C8.17302 4.3982 7.86735 4.09278 7.49103 4.09278H3.06863C3.73612 2.48875 5.30873 1.36453 7.16085 1.36453C8.64662 1.36453 9.45734 1.9019 10.4219 2.86722L10.4222 2.86699C10.5504 2.9952 10.7245 3.0668 10.9058 3.06632C11.0871 3.06585 11.2607 2.99306 11.3882 2.86413C11.5157 2.7352 11.5868 2.56059 11.5854 2.3791C11.5842 2.19783 11.5107 2.02418 11.3813 1.89715C10.3014 0.816228 9.01753 0.000328942 7.16109 0.000328942L7.16131 0Z" fill="#246EE9"/>
                       </svg>
-                    125.00
+                     125.00
 
-                    <ion-chip  color="primary" class="ion-no-padding">
+                    <ion-chip  color="primary" class="ion-no-padding ion-margin-start">
                       <ion-button fill="clear" color="primary" slots="icon-only">
                         <ion-icon name="add"></ion-icon>
                       </ion-button>
@@ -209,6 +220,9 @@
                       </ion-button>
                     </ion-chip>
                   </ion-col>
+               
+                    
+                 
                  
                 </ion-row> 
               </ion-grid>
@@ -222,9 +236,19 @@
       </ion-col>
     </ion-row> 
   </ion-grid>
+
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-content>
-<ion-footer> 
+<ion-footer>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="6" size-lg="6" class="ion-no-padding"> 
   <ion-item  button  class="cusItemPrimary" (click)="next()">
     <ion-label class="ion-text-center"><ion-text color="light">  Next</ion-text> </ion-label> 
   </ion-item >
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-footer>

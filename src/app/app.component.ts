@@ -20,7 +20,9 @@ export class AppComponent {
   editProfile(){
     this.rout.navigate(['edit-profile']);   
   }
-
+  logout(){
+    this.rout.navigate(['login']);   
+  }
   editPassword(){
     this.rout.navigate(['new-password']);   
   }

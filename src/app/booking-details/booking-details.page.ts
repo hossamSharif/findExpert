@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-booking-details',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BookingDetailsPage implements OnInit {
 
-  constructor() { }
+  constructor(private rout : Router) { }
 
   ngOnInit() {
   }
-
+  next(){
+    this.rout.navigate(['booking-details']);  
+  }
 }

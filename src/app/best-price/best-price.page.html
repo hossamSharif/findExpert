@@ -24,7 +24,9 @@
 </ion-header> 
 <ion-content>
  
-
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="8" size-lg="8" class="ion-no-padding">
 
   <ion-list>
     <ion-item class="ion-padding-top ion-padding-bottom ion-margin-start ion-margin-end " lines="none" (click)="proposal()" button>
@@ -186,9 +188,13 @@
 
 
   <ion-fab slot="fixed" class="float">
-    <ion-chip class="ion-padding" class="bg">
+    <ion-chip class="ion-padding" class="bg" (click)="newp()">
      <ion-icon name="add-circle"  color="light" class="f30" ></ion-icon>
        <ion-label color="light">New Project</ion-label> 
    </ion-chip>
  </ion-fab>
+
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-content>

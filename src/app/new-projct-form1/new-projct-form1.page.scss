@@ -1,0 +1,46 @@
+.custLbl{
+   
+    padding: 16; 
+    padding-top: 4px;
+    border-radius: 50%;
+    padding-bottom: 4px;
+    padding-right: 9px;
+    padding-left: 8px; 
+}
+.bgP{
+    background-color: var(--ion-color-primary);
+}
+
+.saparetor{
+ width: 100%;
+ height: 1.5px; 
+ background-color: var(--ion-color-light); 
+}    
+
+ion-searchbar{
+    --background :none;
+    --box-shadow:none; 
+}
+
+.selectedItem{
+    --ion-background-color:var(--ion-color-primary);
+    --ion-color:var(--ion-color-primary-contrast);
+}
+
+.p5{
+    padding-left: 12px;
+}
+.padd{
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+.bgL{
+    --ion-background-color:var(--ion-color-primary-contrast);
+
+}
+
+.bdl{
+    border-bottom-style: solid;
+      border-color: var(--ion-color-light);  
+  }
+  

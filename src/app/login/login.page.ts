@@ -15,12 +15,13 @@ export class LoginPage implements OnInit {
   login(){
     this.rout.navigate(['tabs/home']); 
   }
+  
   signUp(){
     this.rout.navigate(['sign-up']); 
   }
   froget(){
     this.rout.navigate(['forget-password']); 
-
   }
 
+  
 }

@@ -1,0 +1,41 @@
+ion-searchbar{
+    --background :none;
+    --box-shadow:none; 
+}
+ion-item{
+     --ion-background-color:var(--ion-color-primary-contrast);
+}
+.itemL{
+    --ion-background-color:var(--ion-color-light);
+}
+
+.bgL{
+    --ion-background-color:var(--ion-color-primary-contrast);
+
+}
+
+.pBlk{
+    padding-block: 10px;
+}
+
+
+.mg4{
+    margin: 4px ; 
+}
+
+
+.pd10{
+    padding-inline: 10px;
+}
+
+.p10{
+    padding: 10px; 
+    margin-inline: 6px;
+}
+.custAv{
+  width: 35px;
+height: 35px;
+margin-right: 5px;  
+}
+
+

@@ -19,6 +19,8 @@ export class ReviewsPage implements OnInit {
     const modal = await this.modalController.create({
       component: ReviewModalPage ,
        initialBreakpoint :  0.6  ,
+       mode:"ios",
+       cssClass:"custModal",
         breakpoints:[0, 0.5, 0.75, 0.90],
         componentProps: {
         "item":  "",

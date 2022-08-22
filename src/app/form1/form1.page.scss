@@ -26,3 +26,21 @@ ion-searchbar{
     --ion-background-color:var(--ion-color-primary);
     --ion-color:var(--ion-color-primary-contrast);
 }
+
+.p5{
+    padding-left: 12px;
+}
+.padd{
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+.bgL{
+    --ion-background-color:var(--ion-color-primary-contrast);
+
+}
+
+.bdl{
+    border-bottom-style: solid;
+      border-color: var(--ion-color-light);  
+  }
+  

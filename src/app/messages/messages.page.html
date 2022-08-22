@@ -15,8 +15,13 @@
 </ion-header>
 
 <ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-justify-content-center"> 
+      <ion-col size="12" md-size="8" size-lg="8" class="ion-no-padding">
+
+
 <ion-list>
-  <ion-item class="ion-margin-top" detail>
+  <ion-item (click)="chat()" class="ion-margin-top" detail>
     <ion-avatar>
       <ion-img src="../../assets/imgs/andrew.png"></ion-img>
     </ion-avatar>
@@ -104,4 +109,10 @@
       <ion-label color="light">New Project</ion-label> 
   </ion-chip>
 </ion-fab>
+
+
+
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-content>

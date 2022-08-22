@@ -46,8 +46,12 @@
 
 
 ion-item{
-  --inner-padding-end:0px;
+  --inner-padding-end:10px;
  
+}
+.ion-item2{
+  --inner-padding-end:0px; 
+  --background: none;
 }
 
 .custAvatar{
@@ -109,11 +113,27 @@ ion-item{
 }
 .proGood{
   --progress-background :rgba(67, 230, 67, 0.612); 
+  --background :   var(--ion-color-light);
+  
 }
 .proDownAvrg{
   --progress-background :rgb(235, 239, 116); 
+  --background :   var(--ion-color-light);
 }
 
+.proWarn{
+  --progress-background : var(--ion-color-warning);
+  --background :   var(--ion-color-light);
+}
+.proDang{
+  --progress-background : var(--ion-color-danger);
+  --background :   var(--ion-color-light);
+}
+
+.proSucc{
+  --progress-background : var(--ion-color-success);
+  --background :   var(--ion-color-light);
+}
 
 .sm{
   width: 50px;

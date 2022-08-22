@@ -15,4 +15,13 @@ export class HomePage implements OnInit {
   experts(){
     this.rout.navigate(['experts']);  
   }
+
+  notif(){
+    this.rout.navigate(['notificatios']);  
+  }
+
+  search(){
+    this.rout.navigate(['search']);  
+
+  }
 }
